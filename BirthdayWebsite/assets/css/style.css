@@ -1,0 +1,73 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px red;
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 20px;
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.buttons button {
+    margin: 0 10px;
+    background: #333;
+    border: 2px solid red;
+}
+
+.buttons button.active {
+    background: red;
+}
+
+video {
+    width: 800px;
+    max-width: 90%;
+    border-radius: 10px;
+}
+.sound-control {
+    margin: 20px 0;
+}
+
+#unmuteBtn {
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.2);
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#unmuteBtn:hover {
+    background: rgba(255,255,255,0.3);
+}
